@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
       - name: fashion-recommender
-        image: fashion-recommender:latest
+        image: sxnjxy404/fashion-recommender:latest
+
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8501
